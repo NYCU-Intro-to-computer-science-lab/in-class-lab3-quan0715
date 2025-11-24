@@ -1,6 +1,6 @@
-// 題目 5：受詛咒的直線 (The Cursed Line) - Bonus +20分
-
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 void hanoi(int n, int from, int to, int aux){
     if(n == 0){
@@ -20,8 +20,10 @@ void hanoi(int n, int from, int to, int aux){
    
 }
 
+
 int main() {
     int n; cin >>n;
     hanoi(n , 1 , 3 , 2);
+
     return 0;
 }
