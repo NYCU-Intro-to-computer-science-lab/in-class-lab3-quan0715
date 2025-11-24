@@ -21,7 +21,8 @@ void hanoi(int n, int from, int to, int aux){
 
 
 int main() {
-    
+    int n; cin >>n;
+    hanoi(n , 1 , 3 , 2);
 
     return 0;
 }
