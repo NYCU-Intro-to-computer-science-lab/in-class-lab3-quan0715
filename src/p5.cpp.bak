@@ -7,7 +7,7 @@ void hanoi(int n, int from, int to, int aux){
         hanoi(n , from , 2 , to);
         hanoi(n , 2 , to , from);
     }
-    else if(n == 1){
+    elae if(n == 1){
         cout << "Move disk " << n << " from " << from << " to " << to <<endl;
     }
     else{
