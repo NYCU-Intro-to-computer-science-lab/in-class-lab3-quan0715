@@ -15,7 +15,8 @@ long long sum(int n){
 
 int main() {
     
-    int n; cin >> n;
+    int n; 
+    cin >> n;
     cout << factorial(n) << endl;
     cout << sum(n) <<endl;
     return 0;
